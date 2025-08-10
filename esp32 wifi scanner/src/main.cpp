@@ -30,5 +30,6 @@ void loop() {
   }
   WiFi.scanDelete();
   Serial.println("Scan complete!...");
+  Serial.println("-------------------------------------");
   delay(10000);
   }
